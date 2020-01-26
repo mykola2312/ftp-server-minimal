@@ -1,0 +1,2 @@
+/usr/bin/ar.exe qc libmod_home.a  CMakeFiles/mod_home.dir/mod_home.c.o
+/usr/bin/ranlib.exe libmod_home.a

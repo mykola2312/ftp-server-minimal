@@ -1,0 +1,4 @@
+C:\Users\asus\.CLion2019.3\system\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=RelWithDebInfo -G "CodeBlocks - Unix Makefiles" /cygdrive/d/ftpd
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/d/ftpd/cmake-build-release-cygwin

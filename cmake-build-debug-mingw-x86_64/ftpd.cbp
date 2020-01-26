@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ftpd"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/ftpd/cmake-build-debug-mingw-x86_64"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ftpd">
+				<Option output="D:/ftpd/cmake-build-debug-mingw-x86_64/ftpd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ftpd/cmake-build-debug-mingw-x86_64"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ftpd/."/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 ftpd"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ftpd/fast">
+				<Option output="D:/ftpd/cmake-build-debug-mingw-x86_64/ftpd.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/ftpd/cmake-build-debug-mingw-x86_64"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/ftpd/."/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 ftpd/fast"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/ftpd/cmake-build-debug-mingw-x86_64"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/ftpd/cmake-build-debug-mingw-x86_64"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;D:/ftpd/cmake-build-debug-mingw-x86_64/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/ftpd/ftpd.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/ftpd.h">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/ftpd_util.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/ftpd_util.h">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/ftpd_vfs.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/ftpd_vfs.h">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/main.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/mod_ftpd.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/mod_home.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/mod_mnt.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/mod_root.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/mod_tmp.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/scap.c">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/scap.h">
+			<Option target="ftpd"/>
+		</Unit>
+		<Unit filename="D:/ftpd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
